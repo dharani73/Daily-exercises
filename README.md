@@ -1,3 +1,3 @@
 # Daily-exercises
 
-This is the beginning of website
+This is the beginning of websites
