@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+         z-index Property
+    </title>
+    <style>
+      .special{
+        width:100px;
+        height: 100px;
+        margin-bottom: 20px;
+      }
+      
+      #two{
+        background-color: black;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        z-index: 6;
+
+      }
+      #one{
+        background-color: blueviolet;
+        position: absolute;
+        top: 27px;
+        left: 20px;
+        z-index: 6;
+      }
+      #three{
+        background-color: red;
+        position: relative;
+      }
+    </style>
+</head>
+  
+<body>
+  <div id="two" class="special"></div>
+  <div id="one" class="special"></div>
+  <div id="three" class="special"></div>
+    
+</body>
+  
+</html
